@@ -1,0 +1,101 @@
+patient_id,age,sex,medical_history,recent_history
+1001,54,M,Heart failure,Fall at home without loss of consciousness
+1002,70,F,Prostate cancer,"Persistent cough, shortness of breath on exertion"
+1003,83,M,Type II diabetes,Painless hematuria
+1004,30,F,No significant medical history,"Severe headaches, photophobia"
+1005,80,F,No significant medical history,"Loss of appetite, nausea and vomiting"
+1006,57,M,"Breast cancer, Hypertension, Seasonal allergies",Chronic fatigue
+1007,30,F,Obesity,Fall at home without loss of consciousness
+1008,28,F,"Type II diabetes, Obesity",Dizziness with exertion
+1009,48,M,Hypercholesterolemia,"Sneezing, runny nose, red eyes"
+1010,37,F,"Asthma, Breast cancer",Fever and sore throat for the past 3 days
+1011,72,F,"History of stroke, Early-stage Alzheimer’s, Depression",Painless hematuria
+1012,45,F,Depression,Dizziness with exertion
+1013,61,F,Coronary artery disease,Unexplained night sweats
+1014,29,F,No significant medical history,"Persistent cough, shortness of breath on exertion"
+1015,59,F,No significant medical history,"Loss of appetite, nausea and vomiting"
+1016,40,M,No significant medical history,Fever and sore throat for the past 3 days
+1017,52,F,"Obesity, Hypertension, Osteoarthritis",Sudden exhaustion while walking
+1018,36,M,"No significant medical history, Early-stage Alzheimer’s","Sneezing, runny nose, red eyes"
+1019,34,M,No significant medical history,"Sneezing, runny nose, red eyes"
+1020,89,M,"History of stroke, Osteoarthritis, Early-stage Alzheimer’s",Fever and sore throat for the past 3 days
+1021,26,M,"Type II diabetes, Osteoarthritis, Depression",Dizziness with exertion
+1022,79,M,Osteoarthritis,"Severe headaches, photophobia"
+1023,21,F,"Asthma, Heart failure, Seasonal allergies",Occasional palpitations
+1024,28,F,"Hypertension, Seasonal allergies, Breast cancer",Occasional palpitations
+1025,27,F,Osteoarthritis,Painless hematuria
+1026,68,M,"No significant medical history, Coronary artery disease, Breast cancer","Insomnia, sleep disturbances"
+1027,32,M,"Hypercholesterolemia, Type II diabetes, Breast cancer","Sneezing, runny nose, red eyes"
+1028,64,M,"No significant medical history, Early-stage Alzheimer’s, Type II diabetes",Nocturnal breathing discomfort
+1029,22,F,No significant medical history,Occasional palpitations
+1030,53,F,"Seasonal allergies, Obesity",Fever and sore throat for the past 3 days
+1031,20,F,Prostate cancer,"Sneezing, runny nose, red eyes"
+1032,86,M,"Early-stage Alzheimer’s, Osteoarthritis",Fever and sore throat for the past 3 days
+1033,35,M,"History of stroke, Seasonal allergies","Sneezing, runny nose, red eyes"
+1034,36,M,Asthma,Dizziness with exertion
+1035,33,M,Type II diabetes,"Sneezing, runny nose, red eyes"
+1036,23,M,No significant medical history,"Persistent cough, shortness of breath on exertion"
+1037,83,F,"Prostate cancer, Osteoarthritis","Sneezing, runny nose, red eyes"
+1038,76,M,"Depression, Obesity","Sneezing, runny nose, red eyes"
+1039,58,M,Hypertension,"Recent chest pain, dry cough"
+1040,75,F,"History of stroke, Depression, Coronary artery disease",Sudden exhaustion while walking
+1041,49,M,"Asthma, Osteoarthritis",Fall at home without loss of consciousness
+1042,26,M,No significant medical history,Nocturnal breathing discomfort
+1043,38,F,"Hypertension, Obesity",Nocturnal breathing discomfort
+1044,54,F,Osteoarthritis,Occasional palpitations
+1045,38,M,No significant medical history,Generalized itching
+1046,39,F,Early-stage Alzheimer’s,"Persistent cough, shortness of breath on exertion"
+1047,80,F,"Coronary artery disease, Prostate cancer","Insomnia, sleep disturbances"
+1048,27,M,"No significant medical history, Coronary artery disease, Breast cancer","Loss of appetite, nausea and vomiting"
+1049,81,F,Osteoarthritis,Dizziness with exertion
+1050,58,M,No significant medical history,Acute back pain radiating to the leg
+1051,52,F,Hypertension,"Loss of appetite, nausea and vomiting"
+1052,24,F,"Osteoarthritis, Breast cancer, Hypertension","Recent chest pain, dry cough"
+1053,41,M,"Seasonal allergies, Prostate cancer",Fall at home without loss of consciousness
+1054,79,F,No significant medical history,Acute back pain radiating to the leg
+1055,19,M,"Obesity, Prostate cancer, Early-stage Alzheimer’s",Occasional palpitations
+1056,42,F,"Breast cancer, Asthma",Painless hematuria
+1057,26,F,"Prostate cancer, Crohn’s disease",Recent anxiety attack
+1058,60,M,"Asthma, History of stroke, Hypercholesterolemia",Sudden exhaustion while walking
+1059,36,F,No significant medical history,Recent anxiety attack
+1060,77,F,"Obesity, Hypercholesterolemia, History of stroke",Acute back pain radiating to the leg
+1061,89,F,"Early-stage Alzheimer’s, Prostate cancer, Osteoarthritis",Non-healing skin wounds
+1062,35,M,"Seasonal allergies, Depression",Chronic fatigue
+1063,78,F,"Depression, Type II diabetes","Loss of appetite, nausea and vomiting"
+1064,31,M,"Early-stage Alzheimer’s, Obesity, History of stroke",Fever and sore throat for the past 3 days
+1065,82,M,No significant medical history,"Sneezing, runny nose, red eyes"
+1066,86,F,Depression,Recent anxiety attack
+1067,88,F,"Type II diabetes, Asthma","Severe headaches, photophobia"
+1068,82,F,"Type II diabetes, Prostate cancer","Sudden weakness in right arm, speech difficulties"
+1069,88,F,"Asthma, No significant medical history, Hypercholesterolemia",Generalized itching
+1070,83,F,Depression,"Persistent cough, shortness of breath on exertion"
+1071,76,M,Osteoarthritis,Generalized itching
+1072,54,F,No significant medical history,Generalized itching
+1073,24,M,"Seasonal allergies, Crohn’s disease, No significant medical history",Chronic fatigue
+1074,70,M,Coronary artery disease,Acute back pain radiating to the leg
+1075,87,M,"Depression, History of stroke",Generalized itching
+1076,31,M,"Type II diabetes, Hypertension, Asthma","Sudden weakness in right arm, speech difficulties"
+1077,27,F,Type II diabetes,"Sneezing, runny nose, red eyes"
+1078,58,M,"Heart failure, Asthma, Hypertension",Dizziness with exertion
+1079,83,M,"No significant medical history, History of stroke","Loss of appetite, nausea and vomiting"
+1080,42,M,"Obesity, History of stroke",Painless hematuria
+1081,51,F,No significant medical history,"Persistent cough, shortness of breath on exertion"
+1082,24,M,No significant medical history,Unexplained night sweats
+1083,76,F,"Type II diabetes, Early-stage Alzheimer’s","Sudden weakness in right arm, speech difficulties"
+1084,31,M,"Prostate cancer, Hypertension","Recent chest pain, dry cough"
+1085,59,M,"Early-stage Alzheimer’s, Prostate cancer",Dizziness with exertion
+1086,88,F,"Coronary artery disease, Type II diabetes, Obesity","Sudden weakness in right arm, speech difficulties"
+1087,89,M,"Prostate cancer, Hypercholesterolemia, Asthma",Non-healing skin wounds
+1088,43,M,"History of stroke, Breast cancer, Heart failure",Recent anxiety attack
+1089,53,F,No significant medical history,"Loss of appetite, nausea and vomiting"
+1090,26,F,No significant medical history,Painless hematuria
+1091,63,F,No significant medical history,Chronic fatigue
+1092,78,M,History of stroke,Dizziness with exertion
+1093,24,F,"Hypertension, Coronary artery disease",Fall at home without loss of consciousness
+1094,51,F,"Crohn’s disease, Hypertension","Insomnia, sleep disturbances"
+1095,27,M,Hypertension,"Sneezing, runny nose, red eyes"
+1096,37,F,"Seasonal allergies, Hypercholesterolemia, Depression",Painless hematuria
+1097,55,F,"Prostate cancer, Depression, Seasonal allergies",Chronic fatigue
+1098,87,F,"No significant medical history, Asthma",Sudden exhaustion while walking
+1099,25,M,"Hypercholesterolemia, Heart failure, Crohn’s disease",Non-healing skin wounds
+1100,61,F,No significant medical history,Chronic fatigue

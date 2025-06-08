@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot Médical</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 Chatbot Médical</h1>
+    <div class="form-group">
+      <textarea id="message" placeholder="Posez votre question ici..."></textarea>
+      <input type="number" id="age" placeholder="Âge">
+      <select id="sexe">
+        <option value="">Sexe</option>
+        <option value="F">Femme</option>
+        <option value="M">Homme</option>
+      </select>
+      <button onclick="sendMessage()">Envoyer</button>
+    </div>
+    <div id="response"></div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
