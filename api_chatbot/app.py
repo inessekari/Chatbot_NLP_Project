@@ -109,27 +109,32 @@ with tab2:
                 res = requests.post("http://localhost:8000/evaluer-urgence", json=payload)
                 data = res.json()
                 response = data.get("response", {})
+                lang = response.get("lang", "fr")
+
 
                 if isinstance(response, dict) and "label" in response:
                     # -- Réponse médicale principale --
                     if response["label"] == 1:
-                        st.error("⚠️ Urgence médicale détectée. Rendez-vous immédiatement à l'hôpital.")
+                        st.error("⚠️ Urgence médicale détectée. Rendez-vous immédiatement à l'hôpital." if lang == "fr" else "⚠️ Medical emergency detected. Please go to the hospital immediately.")
                     elif response["label"] == 0:
-                        st.info("ℹ️ Il ne semble pas s'agir d'une urgence. Consultez votre médecin généraliste.")
+                        st.info("ℹ️ Il ne semble pas s'agir d'une urgence. Consultez votre médecin généraliste." if lang == "fr" else "ℹ️ It does not appear to be an emergency. Please consult your general practitioner.")
                     else:
-                        st.warning("Résultat non interprétable.")
+                        st.warning("Résultat non interprétable." if lang == "fr" else "Result could not be interpreted.")
                     if "proba_urgent" in response:
                         st.write(f"Confiance : **{response['proba_urgent'] * 100:.1f}%**")
                         
                     # -- Analyse du sentiment (score numérique) --
                     if "sentiment" in response and isinstance(response["sentiment"], (int, float)):
                         score = response["sentiment"]
-                        if score < 0.2:
-                            st.warning("😟 Vous semblez très inquiet ou en détresse émotionnelle. Prenez soin de vous. Si besoin, contactez un proche ou une aide médicale.")
-                            st.markdown("[Ressources d’aide psychologique : SOS Amitié](https://www.sos-amitie.com/)  &nbsp; [Numéro national de prévention du suicide : 3114](https://3114.fr/)")
-                        elif score < 0.4:
-                            st.info("🙏 Nous percevons un stress ou une inquiétude dans votre message. Restez calme, surveillez vos symptômes et n'hésitez pas à consulter si besoin.")
-
+                        if score < 0.4:
+                            if lang == "fr":
+                                st.warning("😟 Vous semblez très inquiet ou en détresse émotionnelle. Prenez soin de vous. Si besoin, contactez un proche ou une aide médicale.")
+                                st.markdown("[Ressources d’aide psychologique : SOS Amitié](https://www.sos-amitie.com/)  &nbsp; [Numéro national de prévention du suicide : 3114](https://3114.fr/)")
+                            else:
+                                st.warning("😟 You seem very distressed or emotionally unwell. Please take care. If necessary, contact a loved one or medical help.")
+                                st.markdown("[Mental health support: Samaritans UK](https://www.samaritans.org/) &nbsp; [US Suicide Prevention Lifeline: 988](https://988lifeline.org/)")
+                        elif score < 0.6:
+                            st.info("🙏 Nous percevons un stress ou une inquiétude dans votre message. Restez calme, surveillez vos symptômes et n'hésitez pas à consulter si besoin." if lang == "fr" else "🙏 We sense some stress or worry in your message. Stay calm, monitor your symptoms and do not hesitate to seek medical help if necessary.")
                 else:
                     st.warning("La réponse n'a pas pu être interprétée. (Champ label absent)")
                     st.info(str(response))

@@ -210,13 +210,13 @@ def evaluer_urgence_endpoint(chat: ChatInput):
                 "message": chat.message,
                 "response_type": "ml",
                 "response": str(ml_result),
-                "proba_urgent": proba_safe
+                "proba_urgent": proba_safe,
             }
             log_interaction_to_db(payload)
+            ml_result["lang"] = lang  # Ajoute la langue à la réponse
             return sanitize_payload({
                 "response": ml_result,
-                "type": "ml",
-                "lang": lang
+                "type": "ml"
             })
         else:
             raise Exception(f"Erreur API ML: {res.text}")
